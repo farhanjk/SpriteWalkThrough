@@ -23,6 +23,7 @@
 		88F5C470178C4FAE00D0D253 /* SpriteWalkThroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C46F178C4FAE00D0D253 /* SpriteWalkThroughTests.m */; };
 		88F5C47A178C503F00D0D253 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F5C479178C503F00D0D253 /* SpriteKit.framework */; };
 		88F5C47F178C540F00D0D253 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C47E178C540F00D0D253 /* HelloScene.m */; };
+		88F5C482178C5DC200D0D253 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C481178C5DC200D0D253 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		88F5C479178C503F00D0D253 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		88F5C47D178C540F00D0D253 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloScene.h; path = ../HelloScene.h; sourceTree = "<group>"; };
 		88F5C47E178C540F00D0D253 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloScene.m; path = ../HelloScene.m; sourceTree = "<group>"; };
+		88F5C480178C5DC200D0D253 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		88F5C481178C5DC200D0D253 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		88F5C44A178C4FAE00D0D253 /* SpriteWalkThrough */ = {
 			isa = PBXGroup;
 			children = (
+				88F5C480178C5DC200D0D253 /* SpaceshipScene.h */,
+				88F5C481178C5DC200D0D253 /* SpaceshipScene.m */,
 				88F5C47D178C540F00D0D253 /* HelloScene.h */,
 				88F5C47E178C540F00D0D253 /* HelloScene.m */,
 				88F5C453178C4FAE00D0D253 /* SpriteAppDelegate.h */,
@@ -261,6 +266,7 @@
 			files = (
 				88F5C451178C4FAE00D0D253 /* main.m in Sources */,
 				88F5C47F178C540F00D0D253 /* HelloScene.m in Sources */,
+				88F5C482178C5DC200D0D253 /* SpaceshipScene.m in Sources */,
 				88F5C455178C4FAE00D0D253 /* SpriteAppDelegate.m in Sources */,
 				88F5C45B178C4FAE00D0D253 /* SpriteViewController.m in Sources */,
 			);
