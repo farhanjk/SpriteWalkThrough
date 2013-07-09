@@ -21,6 +21,8 @@
 		88F5C466178C4FAE00D0D253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F5C448178C4FAE00D0D253 /* UIKit.framework */; };
 		88F5C46E178C4FAE00D0D253 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88F5C46C178C4FAE00D0D253 /* InfoPlist.strings */; };
 		88F5C470178C4FAE00D0D253 /* SpriteWalkThroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C46F178C4FAE00D0D253 /* SpriteWalkThroughTests.m */; };
+		88F5C47A178C503F00D0D253 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F5C479178C503F00D0D253 /* SpriteKit.framework */; };
+		88F5C47F178C540F00D0D253 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C47E178C540F00D0D253 /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		88F5C46B178C4FAE00D0D253 /* SpriteWalkThroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkThroughTests-Info.plist"; sourceTree = "<group>"; };
 		88F5C46D178C4FAE00D0D253 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88F5C46F178C4FAE00D0D253 /* SpriteWalkThroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkThroughTests.m; sourceTree = "<group>"; };
+		88F5C479178C503F00D0D253 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		88F5C47D178C540F00D0D253 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloScene.h; path = ../HelloScene.h; sourceTree = "<group>"; };
+		88F5C47E178C540F00D0D253 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloScene.m; path = ../HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F5C47A178C503F00D0D253 /* SpriteKit.framework in Frameworks */,
 				88F5C447178C4FAE00D0D253 /* CoreGraphics.framework in Frameworks */,
 				88F5C449178C4FAE00D0D253 /* UIKit.framework in Frameworks */,
 				88F5C445178C4FAE00D0D253 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		88F5C443178C4FAE00D0D253 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88F5C479178C503F00D0D253 /* SpriteKit.framework */,
 				88F5C444178C4FAE00D0D253 /* Foundation.framework */,
 				88F5C446178C4FAE00D0D253 /* CoreGraphics.framework */,
 				88F5C448178C4FAE00D0D253 /* UIKit.framework */,
@@ -112,6 +119,8 @@
 		88F5C44A178C4FAE00D0D253 /* SpriteWalkThrough */ = {
 			isa = PBXGroup;
 			children = (
+				88F5C47D178C540F00D0D253 /* HelloScene.h */,
+				88F5C47E178C540F00D0D253 /* HelloScene.m */,
 				88F5C453178C4FAE00D0D253 /* SpriteAppDelegate.h */,
 				88F5C454178C4FAE00D0D253 /* SpriteAppDelegate.m */,
 				88F5C456178C4FAE00D0D253 /* Main.storyboard */,
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F5C451178C4FAE00D0D253 /* main.m in Sources */,
+				88F5C47F178C540F00D0D253 /* HelloScene.m in Sources */,
 				88F5C455178C4FAE00D0D253 /* SpriteAppDelegate.m in Sources */,
 				88F5C45B178C4FAE00D0D253 /* SpriteViewController.m in Sources */,
 			);
@@ -318,6 +328,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -337,6 +348,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -356,6 +368,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;

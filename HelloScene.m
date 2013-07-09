@@ -1,14 +1,13 @@
 //
-//  SpriteViewController.h
+//  HelloScene.m
 //  SpriteWalkThrough
 //
 //  Created by Farhan Khan on 2013-07-09.
 //  Copyright (c) 2013 Farhan Khan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HelloScene.h"
 
-
-@interface SpriteViewController : UIViewController
+@implementation HelloScene
 
 @end
