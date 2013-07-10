@@ -9,12 +9,14 @@
 #import "SpriteViewController.h"
 #import <SpriteKit/SpriteKit.h>
 #import "HelloScene.h"
+#import "SpaceshipScene.h"
 
 @interface SpriteViewController ()
 
 @end
 
 @implementation SpriteViewController
+
 
 - (void)viewDidLoad
 {
@@ -31,7 +33,13 @@
 {
     HelloScene* hello = [[HelloScene alloc] initWithSize:CGSizeMake(768,1024)];
     SKView* spriteView = (SKView*) self.view;
-    [spriteView presentScene:hello];
+    
+    
+    SKScene* spaceshipScene = [[SpaceshipScene alloc] initWithSize:CGSizeMake(768,1024)];
+
+    
+    [spriteView presentScene:spaceshipScene];
+    
 }
 
 - (void)didReceiveMemoryWarning
